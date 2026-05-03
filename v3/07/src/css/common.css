@@ -98,3 +98,55 @@ h1 {
   letter-spacing: 0.04em;
   line-height: 1.33;
 }
+
+/* task4 */
+
+/* Form kartı */
+form {
+  width: 400px;
+  margin: 80px auto;
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Label */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+  color: #444;
+}
+
+/* Inputlar */
+input {
+  width: 100%;
+  height: 44px;
+  margin-bottom: 20px;
+  padding: 0 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #5b7cff;
+}
+
+/* Buton */
+button {
+  background-color: #5b7cff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4a6ae0;
+}
