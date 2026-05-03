@@ -150,3 +150,52 @@ button {
 button:hover {
   background-color: #4a6ae0;
 }
+
+/*  task6 */
+#controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#controls input {
+  width: 80px;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+[data-create] {
+  background-color: #4c6ef5;
+  color: white;
+}
+
+[data-destroy] {
+  background-color: #fa5252;
+  color: white;
+}
+
+#boxes {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 16px;
+  background: white;
+  border-radius: 12px;
+  min-height: 100px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
